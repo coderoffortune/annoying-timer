@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/set_foghorn_alarm"
+        android:title="@string/foghorn"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/set_roster_alarm"
+        android:title="@string/roster"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/set_submarine_alarm"
+        android:title="@string/submarine"
+        app:showAsAction="never" />
+
+</menu>
